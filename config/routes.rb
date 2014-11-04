@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'paginas_basicas/inicio'
+  root 'paginas_basicas#inicio'
 
   get 'paginas_basicas/localizacao'
 
