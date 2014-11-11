@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'gados/new'
+
   root 'paginas_basicas#inicio'
 
   get 'localizacao' => 'paginas_basicas#localizacao'

@@ -49,7 +49,7 @@ html, body {
 
 // conteudo
 
-.conteudo {
+#conteudo {
   margin: auto;
   display: table;
   background: #E1A1A1;
@@ -92,4 +92,7 @@ html, body {
 #localizacao {
   margin: auto;
   display: table;
+  li {
+    margin-left: 15px;
+  }
 }
