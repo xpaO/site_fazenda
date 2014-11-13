@@ -19,4 +19,10 @@ class PaginasBasicasControllerTest < ActionController::TestCase
     assert_select "title", "Contato | FAZENDA"
   end
 
+  test "should get gado" do
+    get :gado
+    assert_response :success
+    assert_select "title", "Gado | FAZENDA"
+  end
+
 end

@@ -1,11 +1,12 @@
 Rails.application.routes.draw do
-  get 'gados/new'
 
   root 'paginas_basicas#inicio'
 
   get 'localizacao' => 'paginas_basicas#localizacao'
 
   get 'contato' => 'paginas_basicas#contato'
+
+  get 'gado' => 'paginas_basicas#gado'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

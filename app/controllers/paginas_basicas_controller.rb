@@ -7,4 +7,7 @@ class PaginasBasicasController < ApplicationController
 
   def contato
   end
+
+  def gado
+  end
 end
